@@ -12,7 +12,7 @@ enableMathJax: false
 lastmod: sys.date()
 tags:
 - image
-title: Short Codes
+title: My first blog
 ---
 
 ------------------------------------------------------------------------
