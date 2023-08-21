@@ -20,3 +20,9 @@ title: My first blog
 > I have a dream.
 
 ![female](images/1000.png)
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| q    | d    | d    |
+|      | 1    |      |
+| 1    | 1    | 3    |
