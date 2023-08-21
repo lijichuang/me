@@ -1,0 +1,50 @@
+baseURL: http://example.org/
+languageCode: en
+DefaultContentLanguage: en
+theme: simpleness
+title: liyuchuang
+enableInlineShortcodes: yes
+enableEmoji: yes
+googleAnalytics: ''
+params:
+  description: A simple and concise hugo theme.
+  disqus: ''
+  enableMathJax: no
+  enableReadingTime: yes
+  favicon: favicon.ico
+  lazyImage: yes
+  startyear: '2019'
+  valine:
+    appId: ''
+    appKey: ''
+    avatar: robohash
+    debug: no
+    enable: no
+    lang: en
+    placeholder: Say Something......
+    requiredFields:
+      - nick
+      - mail
+    serverURLS: https://abc123.api.lncldglobal.com
+    visitor: yes
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+social:
+  github: https://github.com/RainerChiang
+  rss: index.xml
+taxonomies:
+  category: categories
+  tag: tags
+markup:
+  highlight:
+    guessSyntax: yes
+    hl_Lines: ''
+    noClasses: yes
+    style: monokai
+    tabWidth: 4
