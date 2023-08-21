@@ -1,8 +1,8 @@
 ---
-author: Rainer Chiang
+author: liyuchuang
 categories: []
 date: "2020-09-22T10:37:58+05:30"
-description: null
+description: Biography
 disableAutoCollapse: true
 disableToC: false
 draft: false
@@ -10,13 +10,17 @@ enableDisqus: true
 enableMathJax: false
 lastmod: null
 tags: []
-title: About
+title: About me
 ---
 
-## About Yourself
+## About myself
 
-This is some static page where you can write about yourself.
+I am a graduate student from Southweste University, and I set up this website to record and share my studies and life.
 
-## hugo theme [simpleness](https://github.com/RainerChiang/simpleness)
+If there is some information that causes you discomfort in a later article, please contact me in time.
 
-A hugo theme ported form [contrast-hugo](https://github.com/niklasbuschmann/contrast-hugo)
+## Contact
+
+**Email :** *lycswu\@outlook.com*
+
+**QQ :** *1516572022*
