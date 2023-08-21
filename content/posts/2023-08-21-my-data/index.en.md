@@ -7,7 +7,7 @@ categories:
   - Text
 tags:
   - R Markdown
-lastmod: ~
+lastmod: sys.date()
 description: ~
 draft: no
 enableDisqus: no
