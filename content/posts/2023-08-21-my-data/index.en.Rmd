@@ -17,9 +17,4 @@ disableToC: no
 disableAutoCollapse: yes
 ---
 
-青青子衿\
-悠悠我心\
-但为君故\
-沉吟至今
-
-![flower](images/202307246%E5%AD%A6%E6%A0%A1%E5%90%8E%E5%B1%B1.jpg){width="1000"}
+![](images/IMG_20210404_174630.jpg){width="400"}
