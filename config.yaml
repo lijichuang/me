@@ -48,5 +48,5 @@ markup:
     noClasses: yes
     style: monokai
     tabWidth: 4
-    renderer: goldmark
+    
     
