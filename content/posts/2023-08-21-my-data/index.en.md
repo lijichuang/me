@@ -17,4 +17,4 @@ disableToC: no
 disableAutoCollapse: yes
 ---
 
-![](images/IMG_20210404_174630.jpg){width="400"}
+![](images/IMG_20210404_174630.jpg){width="5cm"}
