@@ -7,3 +7,6 @@ Thumbs.db
 .hugo_build.lock
 /public/
 /resources/
+"\\.Rmd$"
+"\\.Rmarkdown$"
+"_cache$"

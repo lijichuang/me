@@ -47,3 +47,6 @@ markup:
     noClasses: yes
     style: monokai
     tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
