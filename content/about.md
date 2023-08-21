@@ -13,7 +13,7 @@ tags: []
 title: About me
 ---
 
-## About myself
+## About me
 
 I am a graduate student from Southweste University, and I set up this website to record and share my studies and life.
 
