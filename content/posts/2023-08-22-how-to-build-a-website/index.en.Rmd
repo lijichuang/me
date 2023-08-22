@@ -6,7 +6,7 @@ slug: How to build a website
 categories:
   - Text
 tags:
-  - website
+  - Chinese
 lastmod: ~
 description: ~
 draft: no
