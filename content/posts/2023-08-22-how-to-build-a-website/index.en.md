@@ -140,7 +140,7 @@ IDE功能介绍
 ![](images/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMzk0NjA2MC01ZmJlMzBjNGE1MDdlYjMwLnBuZw.png)
 
 点击Inall开始安装，安装完成后点击Finish即可。\
-在开始菜单里点击\"Git \"Git Bash\"，弹出类似命令行的窗口，就说明Git安装成功！\
+在开始菜单里点击"Git "Git Bash"，弹出类似命令行的窗口，就说明Git安装成功！\
 在任意目录下右击，可以看到右键菜单中有Git GUI Here和Git Bash Here两个选项。
 
 GIt GUI 是git自带的图形化工具
@@ -149,15 +149,48 @@ Git Bash 是命令行工具
 
 #### ![](images/aHR0cHM6Ly91cGxvYWQtaW1hZ2VzLmppYW5zaHUuaW8vdXBsb2FkX2ltYWdlcy8xMzk0NjA2MC1hYWU4MTZmNGFkYmY2YzlkLnBuZw.png)
 
-
-Git 检查安装
+### Git 检查安装
 
 右键点击Git Bash，在命令行中输入
 
 ```         
-git --version
+git --version  #version与短横线之间不存在空格
 ```
 
 就会显示当前下载的 git 版本
 
+![](images/01.png)
 
+配置用户信息
+
+安装完 Git 后，第一件事就是设置用户名和邮箱地址。Git 需要使用这些基本信息记录对项目进行操作的用户。
+
+右键点击Git Bash，在命令行中输入以下代码实现配置。注意如果使用了 \--global选项，则该命令只需要运行一次，就可以永久生效。
+
+`git config --global user.name "your name" #注意为GitHub的用户名`
+
+`git config --global user.email "your email"#GitHub注册时的邮箱地址`
+
+[![转载图片](images/1d285a0192004f688d96b2d36aabf9d9.png)](http://www.taodudu.cc/news/show-3707188.html?action=onClick)
+
+检查配置信息
+
+方法一
+
+配置完的用户名和邮箱地址会被写入C:/Users/用户名文件夹/.gitconfig 文件中。可以使用记事本查看全局的配置信息
+
+方法二
+
+运行终端指令
+
+```         
+# 查看所有全局配置项
+git config --list --global
+# 查看指定的全局配置项
+git config user.name
+git config user.email
+```
+
+### Git在Studio中的配置
+
+一般来说，在Git下载完成后，系统可以自动监测到。
