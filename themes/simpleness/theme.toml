@@ -8,7 +8,7 @@ features = ["blog", "simple", "clean", "highlight"]
 min_version = "0.51"
 
 [author]
-  name = "Rainer Chiang"
+  name = "liyuchuang"
   homepage = "https://rainerchiang.github.io/"
   repo = "https://github.com/RainerChiang/simpleness"
 
