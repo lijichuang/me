@@ -218,14 +218,14 @@ git config user.email
 `if (!requireNamespace("devtools")) install.packages("devtools") devtools::install_github("rstudio/blogdown")`
 
 ```{r}
-install.packages("blogdown")#下载blogdown包
-update.packages("blogdown")#更新blogdown包
+#install.packages("blogdown")#下载blogdown包
+#update.packages("blogdown")#更新blogdown包
 #在Rstudio中一般使用Rmarkdown编辑blog，但是Rstudio中并没有附带rmarkdown包，因此需要我们自己下载
-install.packages("rmarkdown")#下载rmarkdown包
+#install.packages("rmarkdown")#下载rmarkdown包
 #install.packages(c("blogdown","rmarkdown"))#同时下载两个包
 #update.packages(ask = F)#更新所有包但并不弹出信息
 #hugo下载需要再blogdown之后
 library(blogdown)#载入blogdown包
-install_hugo()#下载hugo
+#install_hugo()#下载hugo
 hugo_version()#检查Hugo的版本
 ```
