@@ -17,9 +17,9 @@ disableToC: no
 disableAutoCollapse: yes
 ---
 
-# 使用Rstudio+Hugo+GitHub+Netlify 创建个人博客网站
+## 使用Rstudio+Hugo+GitHub+Netlify 创建个人博客网站
 
-## 提前准备
+## **提前准备**
 
 -   [Rstudio](https://posit.co/download/rstudio-desktop/)
 
@@ -206,3 +206,31 @@ git config user.email
 -   <https://blog.csdn.net/sanxd/article/details/82624127>
 
 -   <http://www.taodudu.cc/news/show-3707188.html?action=onClick>
+
+### blogdown&hugo 下载及更新
+
+**CRAN**
+
+`install.packages("blogdown")`
+
+**GitHub**
+
+`if (!requireNamespace("devtools")) install.packages("devtools") devtools::install_github("rstudio/blogdown")`
+
+
+```r
+#install.packages("blogdown")#下载blogdown包
+#update.packages("blogdown")#更新blogdown包
+#在Rstudio中一般使用Rmarkdown编辑blog，但是Rstudio中并没有附带rmarkdown包，因此需要我们自己下载
+#install.packages("rmarkdown")#下载rmarkdown包
+#install.packages(c("blogdown","rmarkdown"))#同时下载两个包
+#update.packages(ask = F)#更新所有包但并不弹出信息
+#hugo下载需要再blogdown之后
+library(blogdown)#载入blogdown包
+#install_hugo()#下载hugo
+hugo_version()#检查Hugo的版本
+```
+
+```
+## [1] '0.115.4'
+```

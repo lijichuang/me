@@ -217,7 +217,7 @@ git config user.email
 
 `if (!requireNamespace("devtools")) install.packages("devtools") devtools::install_github("rstudio/blogdown")`
 
-```{r}
+```{r install&update}
 #install.packages("blogdown")#下载blogdown包
 #update.packages("blogdown")#更新blogdown包
 #在Rstudio中一般使用Rmarkdown编辑blog，但是Rstudio中并没有附带rmarkdown包，因此需要我们自己下载
