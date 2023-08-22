@@ -194,3 +194,15 @@ git config user.email
 ### Git在Studio中的配置
 
 一般来说，在Git下载完成后，系统可以自动监测到。
+
+也可以在Rstudio的Tools-------\>global options -------\>GIT/SVN 进行设置
+
+![](images/02.png)
+
+**这一步非常重要，是沟通Rstudio和GitHub的桥梁**
+
+到此为止，关于Git的下载及设置简略的完成了，详尽的教程链接我在下面列出：
+
+-   <https://blog.csdn.net/sanxd/article/details/82624127>
+
+-   <http://www.taodudu.cc/news/show-3707188.html?action=onClick>
