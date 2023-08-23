@@ -324,3 +324,15 @@ SSH Keys选项中的title内容随意取名(用默认即可)，
 #### [Netlify](https://www.netlify.com/)
 
 Netlify 注册时最好使用GitHub账户注册，这样之后就可以减少很多麻烦
+
+## 构建网页
+
+#### 复制在GitHub创建Reposity的SSH值
+
+![](images/05.png)
+
+#### 在Rstudio中新建一个项目
+
+在File-\>New project --\>version control---\>Git
+
+![](images/06-01.png)
