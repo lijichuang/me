@@ -361,3 +361,17 @@ Netlify 注册时最好使用GitHub账户注册，这样之后就可以减少很
 `check_content()`
 
 `check_site()`
+
+#### 在Hugo theme 选择适合的主题
+
+Hugo theme 主题： <https://themes.gohugo.io>
+
+![](images/07.png)
+
+下面是我选择的主题
+
+![](images/08.png)
+
+**点击download**
+
+![](images/09.png)
