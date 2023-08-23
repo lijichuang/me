@@ -336,3 +336,119 @@ Netlify 注册时最好使用GitHub账户注册，这样之后就可以减少很
 在File-\>New project --\>version control---\>Git
 
 ![](images/06-01.png)
+
+#### 新建一个脚本文件
+
+`#blogdown常用的函数及其功能`
+
+`library(blogdown)#加载blogdown包`
+
+`new_site(theme = "RainerChiang/simpleness")`
+
+`serve_site()`
+
+`#函数 serve_site（） 执行静态站点生成器（例如，hugo 服务器或 jekyll 服务器）的 server 命令来启动本地 Web 服务器，该服务器监视站点的变化，必要时重建站点，并自动刷新网页;stop_server（） 停止 Web 服务器。`
+
+`check_gitignore()#检查gitignore文件`
+
+`hugo_version()#检查Hugo版本`
+
+`stop_server()`
+
+`#Build the site through Hugo, and optionally (re)build R Markdown files.`
+
+`build_site()`
+
+`#The function check_site() runs all check_*() functions on this page against a website project. See 'Details' for what each check_*() function does.`
+
+`check_config()`
+
+`check_content()`
+
+`check_site()`
+
+#### 在Hugo theme 选择适合的主题
+
+Hugo theme 主题： <https://themes.gohugo.io>
+
+![](images/07.png)
+
+下面是我选择的主题
+
+![](images/10.png)
+
+**点击download**
+
+![](images/11.png)
+
+复制此名称
+
+运行以下代码：
+
+`library(blogdown)`
+
+`new_site(theme = "chollinger93/ink-free")#注意，千万不要在名称里面存在空格，否则会报错。`
+
+下载完成后在右侧就可以看到出现以下文件：
+
+![](images/12.png)
+
+> 1.  config.toml: 这是你的博客的配置文件，对于你博客的一些全局信息可以在这里修改和配置 。
+>
+> 2.  content文件夹: 这里存放了我要Post的R markdown 文档和其他你要Post的markdown文档
+>
+> 3.  index.Rmd: 最终生成index.html
+>
+> 4.  public文件夹：最终博客生成的html文件和一些静态资源文件会放在这里
+>
+> 5.  static: blogdown需要的一些静态资源文件，像css文件，js文件，图片，视频等均属于静态资源文件
+>
+> 6.  themes: hugo主题，blogdown引入的hugo主题会下载到这个文件夹，同时你可以把你想要的hugo主题考到这个文件夹中供blogdown引用
+
+在Rstudio中运行blog系统
+
+在Console中输入：`blogdown::serve_site()`就可以正常启动你的博客系统了：
+
+#### ![](images/13.png)
+
+新建一个blog
+
+Addins --\> new post
+
+![](images/14.png)
+
+注意：**Addins 选项里面提供了一些常用的函数和命令**，熟练地应用可以增加编写的乐趣。
+
+![](images/15.png)
+
+注意：我之前选择Markdown格式的文件创建blog，但是在插入图片时不能正常显示，由于本人学识有限，未找到原因，因此只能**推荐使用.rmd格式的文件**创建blog
+
+在Netlify创建网站
+
+登录Netlify后在Sites 中点击Add new site 选项，即可开始创建：
+
+![](images/16.png)
+
+选择 Import an existing project
+
+![](images/17.png)
+
+选择Deploy with GitHub
+
+![](images/18.png)
+
+选择构建的 Reposity
+
+![](images/19.png)
+
+添加环境变量
+
+![](images/21.png)
+
+在Rstuidio 中加载blogdown包的情况下，输入 `hugo_version()`即可获得hugo版本
+
+单击运行后即可获得一个网址
+
+正在生成中
+
+![](images/22.png)

@@ -370,8 +370,80 @@ Hugo theme 主题： <https://themes.gohugo.io>
 
 下面是我选择的主题
 
-![](images/08.png)
+![](images/10.png)
 
 **点击download**
 
-![](images/09.png)
+![](images/11.png)
+
+复制此名称
+
+运行以下代码：
+
+`library(blogdown)`
+
+`new_site(theme = "chollinger93/ink-free")#注意，千万不要在名称里面存在空格，否则会报错。`
+
+下载完成后在右侧就可以看到出现以下文件：
+
+![](images/12.png)
+
+> 1.  config.toml: 这是你的博客的配置文件，对于你博客的一些全局信息可以在这里修改和配置 。
+>
+> 2.  content文件夹: 这里存放了我要Post的R markdown 文档和其他你要Post的markdown文档
+>
+> 3.  index.Rmd: 最终生成index.html
+>
+> 4.  public文件夹：最终博客生成的html文件和一些静态资源文件会放在这里
+>
+> 5.  static: blogdown需要的一些静态资源文件，像css文件，js文件，图片，视频等均属于静态资源文件
+>
+> 6.  themes: hugo主题，blogdown引入的hugo主题会下载到这个文件夹，同时你可以把你想要的hugo主题考到这个文件夹中供blogdown引用
+
+在Rstudio中运行blog系统
+
+在Console中输入：`blogdown::serve_site()`就可以正常启动你的博客系统了：
+
+#### ![](images/13.png)
+
+新建一个blog
+
+Addins --\> new post
+
+![](images/14.png)
+
+注意：**Addins 选项里面提供了一些常用的函数和命令**，熟练地应用可以增加编写的乐趣。
+
+![](images/15.png)
+
+注意：我之前选择Markdown格式的文件创建blog，但是在插入图片时不能正常显示，由于本人学识有限，未找到原因，因此只能**推荐使用.rmd格式的文件**创建blog
+
+在Netlify创建网站
+
+登录Netlify后在Sites 中点击Add new site 选项，即可开始创建：
+
+![](images/16.png)
+
+选择 Import an existing project
+
+![](images/17.png)
+
+选择Deploy with GitHub
+
+![](images/18.png)
+
+选择构建的 Reposity
+
+![](images/19.png)
+
+添加环境变量
+
+![](images/21.png)
+
+在Rstuidio 中加载blogdown包的情况下，输入 `hugo_version()`即可获得hugo版本
+
+单击运行后即可获得一个网址
+
+正在生成中
+
+![](images/22.png)
