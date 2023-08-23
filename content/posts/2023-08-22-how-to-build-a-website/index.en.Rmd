@@ -331,3 +331,33 @@ Netlify 注册时最好使用GitHub账户注册，这样之后就可以减少很
 在File-\>New project --\>version control---\>Git
 
 ![](images/06-01.png)
+
+#### 新建一个脚本文件
+
+`#blogdown常用的函数及其功能`
+
+`library(blogdown)#加载blogdown包`
+
+`new_site(theme = "RainerChiang/simpleness")`
+
+`serve_site()`
+
+`#函数 serve_site（） 执行静态站点生成器（例如，hugo 服务器或 jekyll 服务器）的 server 命令来启动本地 Web 服务器，该服务器监视站点的变化，必要时重建站点，并自动刷新网页;stop_server（） 停止 Web 服务器。`
+
+`check_gitignore()#检查gitignore文件`
+
+`hugo_version()#检查Hugo版本`
+
+`stop_server()`
+
+`#Build the site through Hugo, and optionally (re)build R Markdown files.`
+
+`build_site()`
+
+`#The function check_site() runs all check_*() functions on this page against a website project. See 'Details' for what each check_*() function does.`
+
+`check_config()`
+
+`check_content()`
+
+`check_site()`
