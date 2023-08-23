@@ -234,3 +234,93 @@ hugo_version()#检查Hugo的版本
 ```
 ## [1] '0.115.4'
 ```
+
+### Github 以及 Netlify 的注册与登录
+
+Github : <https://github.com/>
+
+Netlify : <https://www.netlify.com/>
+
+#### GitHub
+
+Github 注册我在这里不在赘述，下面我将介绍在GitHub中的设置
+
+添加SSH 和GPG keys
+
+在profile-\>setting-\>ssh and GPG keys -\>new ssh key
+
+ssh key 可以在Rstudio 中的Tools-\>Global options -\>SSH &SVN 找到
+
+![](images/02-01.png)
+
+点击**view public key** 就可以看到，也可以在**目录文件下文件**也可以看到
+
+如果并没有SSH Key 就需要Git 生成
+
+生成方法可以参照下面：
+
+SSH Key
+
+控制台输入：
+
+git config \--global user.name "your name"
+
+git config \--global user.email "your email"
+
+查看已经配置信息：
+
+git config \--global \--list
+
+执行下列命令生成密钥：
+
+ssh-keygen - t rsa -C "your email"
+
+中途需要经过3到4次确认：
+
+1\. 密钥的保存路径，不更改则直接回车
+
+2\. 是否覆盖上一次生成的密钥(若之前已经生成过密钥)
+
+3\. 密码(若不设置则直接回车)
+
+4\. 确认密码
+
+操作内容：
+
+在仓库GitLab/GitHub/Gitee等中的
+
+SSH Keys选项中的key中复制粘贴\~/.ssh/id_rsa.pub文件中的内容，
+
+SSH Keys选项中的title内容随意取名(用默认即可)，
+
+配置好后 点击 Add key, SSH key就配置完成了。
+
+将本地项目上传到仓库GitLab/GitHub/Gitee等上(新建一个master分支)
+
+1\. 本地项目文件中右键git bash并运行git init，使之成为一个本地仓库
+
+2\. 运行git add . 和 git commit -m '初始化'
+
+3\. 运行 git remote add origin + git地址，将本地库与远程仓库关联
+
+4\. 运行git push -u origin master 把本地仓库内容推送到Gitlab/Github/Gitee等仓库
+
+温馨提示(新手)：控制台可以是 win键+R键(弹出框中输入cmd按回车)的界面，也可以是代码编辑器中的控制台。
+
+> 版权声明：本文为CSDN博主「星辰light」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+
+原文链接：<https://blog.csdn.net/hym_ok/article/details/127457947>
+
+最后将SSH Key 复制粘贴到GitHub
+
+![](images/04.png)
+
+![](images/03.png)
+
+在GitHub中创建新的Repository
+
+![](images/d04mai3nhw.jpeg)
+
+#### [Netlify](https://www.netlify.com/)
+
+Netlify 注册时最好使用GitHub账户注册，这样之后就可以减少很多麻烦
