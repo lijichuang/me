@@ -437,6 +437,22 @@ Addins --\> new post
 
 我这里是因为我在写这篇博客是操作的，因此也可以作为更新博客时的操作。
 
+![](images/25-01.png)
+
+![](images/26.png)
+
+提交后将会显示一下界面
+
+![](images/27.png)
+
+点击Close
+
+![](images/28.png)
+
+Push 成功
+
+![](images/29.png)
+
 #### 在Netlify创建网站
 
 登录Netlify后在Sites 中点击Add new site 选项，即可开始创建：
@@ -476,3 +492,15 @@ General -\> site details -\>change site name
 ![](images/24.png)
 
 其中网址中间部分可以自行修改。
+
+### 推荐参考资料：
+
+[1] <https://www.sohu.com/a/254304693_466874>
+
+[2] <https://cloud.tencent.com/developer/news/92522>
+
+[3] <https://bookdown.org/yihui/blogdown/>
+
+[4] <https://b23.tv/DxUNMEC>
+
+注：前两个为网页，第三个是大神写的书，第四个链接是小明的视频，你可以关注他的公众号，里面有非常多有意思的东西。
