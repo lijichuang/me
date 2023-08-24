@@ -406,7 +406,7 @@ Hugo theme 主题： <https://themes.gohugo.io>
 
 #### ![](images/13.png)
 
-新建一个blog
+#### 新建一个blog及将修改后的文件上传
 
 Addins --\> new post
 
@@ -418,7 +418,21 @@ Addins --\> new post
 
 注意：我之前选择Markdown格式的文件创建blog，但是在插入图片时不能正常显示，由于本人学识有限，未找到原因，因此只能**推荐使用.rmd格式的文件**创建blog
 
-在Netlify创建网站
+上传文件到GitHub
+
+1.在Tools -\> terminal -\>new terminal 创建一个新的终端
+
+运行以下代码：
+
+`git add --A`
+
+2.在右上侧的代码调试窗口打开**Git选项卡**，**选中所有文件**，点击**Commit 提交**，然后在commit message 框中**填写备注信息**，这里是必须的，否则会 报错。然后点击Push即可完成操作。
+
+![](images/25.png)
+
+我这里是因为我在写这篇博客是操作的，因此也可以作为更新博客时的操作。
+
+#### 在Netlify创建网站
 
 登录Netlify后在Sites 中点击Add new site 选项，即可开始创建：
 
@@ -447,3 +461,13 @@ Addins --\> new post
 正在生成中
 
 ![](images/22.png)
+
+完成后即可得到网址
+
+在Site configuration 可以修改名称
+
+General -\> site details -\>change site name
+
+![](images/24.png)
+
+其中网址中间部分可以自行修改。
