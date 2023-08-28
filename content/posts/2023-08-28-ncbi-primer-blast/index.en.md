@@ -18,9 +18,8 @@ disableAutoCollapse: yes
 ---
 
 ## [残花](https://www.zuowenxue.com/gushi/446027.html)
-〔[宋代](https://www.zuowenxue.com/gushi/songdai/)〕
-  [李清照](https://www.zuowenxue.com/zuozhe/11084.html)
-	
+
+〔[宋代](https://www.zuowenxue.com/gushi/songdai/)〕 [李清照](https://www.zuowenxue.com/zuozhe/11084.html)
 
 花开花落花无悔，缘来缘去缘如水。
 
@@ -31,5 +30,3 @@ disableAutoCollapse: yes
 花舞花落泪，花哭花瓣飞。
 
 花开为谁谢，花谢为谁悲。
-
-			
