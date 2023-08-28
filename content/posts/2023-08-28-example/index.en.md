@@ -2,26 +2,15 @@
 title: example
 author: 李玉闯
 date: '2023-08-28'
-slug: []
 categories:
   - lab
 tags:
   - NCBI
-lastmod: ~
-description: ~
-draft: no
-enableDisqus: no
-enableMathJax: no
-toc: no
-disableToC: no
-disableAutoCollapse: yes
 ---
 
 # 水调歌头·泛湘江
 
-〔[宋代](https://www.zuowenxue.com/gushi/songdai/)〕
-[张孝祥](https://www.zuowenxue.com/zuozhe/22284.html)
-		
+〔[宋代](https://www.zuowenxue.com/gushi/songdai/)〕 [张孝祥](https://www.zuowenxue.com/zuozhe/22284.html)
 
 濯足夜滩急，晞发北风凉。
 
@@ -38,5 +27,3 @@ disableAutoCollapse: yes
 唤起九歌忠愤，拂拭三闾文字，还与日争光。
 
 莫遣儿辈觉，此乐未渠央。
-
-				
