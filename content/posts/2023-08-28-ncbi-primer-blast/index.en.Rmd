@@ -4,9 +4,9 @@ author: 李玉闯
 date: '2023-08-28'
 slug: NCBI  Primer BLAST
 categories:
-  - Lab
+  - text
 tags:
-  - Biology
+  - Chinese
 lastmod: ~
 description: ~
 draft: no
@@ -17,4 +17,4 @@ disableToC: no
 disableAutoCollapse: yes
 ---
 
-# NCBI  Primer BLAST 设计qPCR 教程
+# NCBI Primer BLAST 设计qPCR 教程
