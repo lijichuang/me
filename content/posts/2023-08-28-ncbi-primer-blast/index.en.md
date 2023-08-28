@@ -1,12 +1,12 @@
 ---
-title: NCBI  Primer BLAST 设计qPCR 教程
+title: N P
 author: 李玉闯
 date: '2023-08-28'
 slug: NCBI  Primer BLAST
 categories:
-  - text
+  - lab
 tags:
-  - Chinese
+  - NCBI
 lastmod: ~
 description: ~
 draft: no
@@ -16,5 +16,3 @@ toc: no
 disableToC: no
 disableAutoCollapse: yes
 ---
-
-# NCBI Primer BLAST 设计qPCR 教程

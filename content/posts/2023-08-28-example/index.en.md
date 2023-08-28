@@ -1,8 +1,8 @@
 ---
-title: N P
+title: example
 author: 李玉闯
 date: '2023-08-28'
-slug: NCBI  Primer BLAST
+slug: []
 categories:
   - lab
 tags:
@@ -16,3 +16,4 @@ toc: no
 disableToC: no
 disableAutoCollapse: yes
 ---
+
