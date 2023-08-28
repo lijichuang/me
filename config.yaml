@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://liyuchuang.netlify.app
 languageCode: en
 DefaultContentLanguage: en
 theme: simpleness
