@@ -1,5 +1,5 @@
 ---
-title: N P
+title: NCBI  Primer BLAST
 author: 李玉闯
 date: '2023-08-28'
 slug: NCBI  Primer BLAST
