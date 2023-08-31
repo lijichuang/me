@@ -1,5 +1,5 @@
 ---
-title: 基本数据管理(1)
+title: 基本数据管理-1
 author: 李玉闯
 date: '2023-09-01'
 categories:
