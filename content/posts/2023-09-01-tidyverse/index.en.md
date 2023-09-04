@@ -18,3 +18,12 @@ disableAutoCollapse: yes
 ---
 
 # 数据整理------Tidyverse（1）
+
+
+```r
+x <- 5 #radius of a circle
+```
+
+For a circle with the radius 5
+
+its area is 78.5398163
