@@ -9,7 +9,7 @@ tags:
   - Tidyverse
 lastmod: ~
 description: ~
-draft: no
+draft: yes
 enableDisqus: no
 enableMathJax: no
 toc: no
@@ -27,3 +27,5 @@ x <- 5 #radius of a circle
 For a circle with the radius 5
 
 its area is 78.5398163
+
+<font color=red>我是红色</font>
