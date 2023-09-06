@@ -30,3 +30,5 @@ disableAutoCollapse: yes
 花舞花落泪，花哭花瓣飞。
 
 花开为谁谢，花谢为谁悲。
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
