@@ -30,4 +30,7 @@ its area is 78.5398163
 
 ------------------------------------------------------------------------
 
-\<iframe height=498 width=510 src=“[http://vodkgeyttp9.vod.126.net/cloudmusic/1FgSA8LX_3222439799_sd.mp4?wsSecret=25dc3b1d0e2fcc4c65db0cab7d6f107d&wsTime=1606454043”](http://vodkgeyttp9.vod.126.net/cloudmusic/1FgSA8LX_3222439799_sd.mp4?wsSecret=25dc3b1d0e2fcc4c65db0cab7d6f107d&wsTime=1606454043%22)
+\<video id=“video” controls=“” preload=“none” poster=“[http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg”](http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg%22)
+\<source id=”mp4” src=“[http://img.blog.fandong.me/
+2017-08-26-Markdown-Advance-Video.mp4”](http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4%22) type=”video/mp4”\>
+</video>
