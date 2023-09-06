@@ -15,12 +15,12 @@ enableMathJax: no
 toc: no
 disableToC: no
 disableAutoCollapse: yes
-bibliography: references.bib
 ---
 
-# 数据整理——Tidyverse（1）
+# 数据整理------Tidyverse（1）
 
-``` r
+
+```r
 x <- 5 #radius of a circle
 ```
 
@@ -29,3 +29,5 @@ For a circle with the radius 5
 its area is 78.5398163
 
 ------------------------------------------------------------------------
+
+

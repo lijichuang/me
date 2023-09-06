@@ -15,7 +15,6 @@ enableMathJax: no
 toc: no
 disableToC: no
 disableAutoCollapse: yes
-bibliography: references.bib
 ---
 
 # 数据整理------Tidyverse（1）
