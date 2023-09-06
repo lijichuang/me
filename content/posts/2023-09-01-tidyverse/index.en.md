@@ -28,7 +28,4 @@ For a circle with the radius 5
 
 its area is 78.5398163
 
-
-    ```r
-    <iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
-    ```
+\<iframe width=“560” height=“315” src=“[http://www.youtube.com/embed/9bZkp7q19f0?rel=0”](http://www.youtube.com/embed/9bZkp7q19f0?rel=0%22) frameborder=”0” allowfullscreen\>\</iframe\>

@@ -28,8 +28,4 @@ For a circle with the radius `r x`
 
 its area is `r pi*x^2`
 
-````         
-```{r, eval=FALSE}
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
-```
-````
+\<iframe width="560" height="315" src="[http://www.youtube.com/embed/9bZkp7q19f0?rel=0"](http://www.youtube.com/embed/9bZkp7q19f0?rel=0") frameborder="0" allowfullscreen\>\</iframe\>
