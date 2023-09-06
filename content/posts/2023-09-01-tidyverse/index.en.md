@@ -29,8 +29,3 @@ For a circle with the radius 5
 its area is 78.5398163
 
 ------------------------------------------------------------------------
-
-\<video id=“video” controls=“” preload=“none” poster=“[http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg”](http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg%22)
-\<source id=”mp4” src=“[http://img.blog.fandong.me/
-2017-08-26-Markdown-Advance-Video.mp4”](http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.mp4%22) type=”video/mp4”\>
-</video>
